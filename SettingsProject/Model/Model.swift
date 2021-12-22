@@ -35,7 +35,7 @@ struct UpdateCellModel {
     let title: String
     let icon: UIImage
     let iconColor: UIColor
-    let updateTitle: Int
+    let updateTitle: String
     let updateColor: UIColor
     let handler: (() -> Void)
 }
